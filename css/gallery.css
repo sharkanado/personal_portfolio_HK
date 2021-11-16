@@ -68,6 +68,16 @@
           background-color: #924b8f;
           transform: scale(3) translateY(-100%);
           transition: transform 1s; }
+          @media (max-width: 1245px) {
+            .gallery .grid-container .item-wrap .item::after {
+              font-size: 10px;
+              margin-top: 130px;
+              padding-top: 70px; } }
+          @media (max-width: 880px) {
+            .gallery .grid-container .item-wrap .item::after {
+              font-size: 8px;
+              margin-top: 30px;
+              padding-top: 100px; } }
         .gallery .grid-container .item-wrap .item:hover::after {
           transform: scale(3) translateY(0); }
       .gallery .grid-container .item-wrap .item-1 {
@@ -83,6 +93,16 @@
         .gallery .grid-container .item-wrap .item-2::after {
           font-size: 10px;
           content: 'VISUAL \A IDENTIFICATION'; }
+          @media (max-width: 1245px) {
+            .gallery .grid-container .item-wrap .item-2::after {
+              font-size: 7px;
+              margin-top: 130px;
+              padding-top: 70px; } }
+          @media (max-width: 880px) {
+            .gallery .grid-container .item-wrap .item-2::after {
+              font-size: 5px;
+              margin-top: 30px;
+              padding-top: 100px; } }
       .gallery .grid-container .item-wrap .item-3 {
         background-image: url("../images/other.png");
         background-position: 50% 30%;
@@ -90,3 +110,13 @@
         .gallery .grid-container .item-wrap .item-3::after {
           font-size: 10px;
           content: 'TRADITIONAL \A ART'; }
+          @media (max-width: 1245px) {
+            .gallery .grid-container .item-wrap .item-3::after {
+              font-size: 8px;
+              margin-top: 130px;
+              padding-top: 70px; } }
+          @media (max-width: 880px) {
+            .gallery .grid-container .item-wrap .item-3::after {
+              font-size: 6px;
+              margin-top: 30px;
+              padding-top: 100px; } }

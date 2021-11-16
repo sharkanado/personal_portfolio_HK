@@ -7,6 +7,9 @@ html {
   background: rgba(0, 0, 0, 0.5);
   margin-top: 120px;
   padding: 40px; }
+  @media (max-width: 770px) {
+    .display {
+      margin-top: 180px; } }
   .display .container {
     display: grid;
     grid-column-gap: 20px;
