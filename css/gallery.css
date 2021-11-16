@@ -1,0 +1,92 @@
+.gallery {
+  text-align: left;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 50px; }
+  @media (max-width: 400px) {
+    .gallery {
+      padding: 10px; } }
+  .gallery h1 {
+    text-align: center;
+    padding: 30px; }
+    @media (max-width: 1160px) {
+      .gallery h1 {
+        font-size: 35px; } }
+  .gallery .grid-container {
+    justify-content: center;
+    font-family: "Lato", sans-serif;
+    padding: 0 20px;
+    display: flex; }
+    @media (max-width: 550px) {
+      .gallery .grid-container {
+        display: block;
+        align-items: center; } }
+    .gallery .grid-container .item-wrap {
+      text-align: center; }
+      .gallery .grid-container .item-wrap .item {
+        color: black;
+        justify-content: center;
+        align-items: center;
+        height: 300px;
+        box-shadow: 0 0 12px 0px rgba(0, 0, 0, 0.9);
+        width: 300px;
+        margin: 40px;
+        transition-property: background;
+        transition-duration: 1s;
+        position: relative;
+        overflow: hidden; }
+        @media (max-width: 1245px) {
+          .gallery .grid-container .item-wrap .item {
+            width: 200px;
+            height: 200px; } }
+        @media (max-width: 880px) {
+          .gallery .grid-container .item-wrap .item {
+            width: 150px;
+            height: 150px; } }
+        @media (max-width: 700px) {
+          .gallery .grid-container .item-wrap .item {
+            margin: 20px; } }
+        @media (max-width: 550px) {
+          .gallery .grid-container .item-wrap .item {
+            flex-direction: column;
+            margin: 20px auto; } }
+        .gallery .grid-container .item-wrap .item::after {
+          content: '';
+          font-size: 16px;
+          margin-top: 300px;
+          padding-top: 100px;
+          opacity: 80%;
+          text-align: center;
+          color: white;
+          line-height: 1.5;
+          position: absolute;
+          height: 100%;
+          white-space: pre-wrap;
+          width: 100%;
+          top: 0;
+          left: 0;
+          background-color: #924b8f;
+          transform: scale(3) translateY(-100%);
+          transition: transform 1s; }
+        .gallery .grid-container .item-wrap .item:hover::after {
+          transform: scale(3) translateY(0); }
+      .gallery .grid-container .item-wrap .item-1 {
+        background-image: url("../images/grafika.png");
+        background-position: 50% 30%;
+        background-size: 150%; }
+        .gallery .grid-container .item-wrap .item-1::after {
+          content: 'GRAPHICS'; }
+      .gallery .grid-container .item-wrap .item-2 {
+        background-image: url("../images/logos.png");
+        background-position: center;
+        background-size: 300%; }
+        .gallery .grid-container .item-wrap .item-2::after {
+          font-size: 10px;
+          content: 'VISUAL \A IDENTIFICATION'; }
+      .gallery .grid-container .item-wrap .item-3 {
+        background-image: url("../images/other.png");
+        background-position: 50% 30%;
+        background-size: 120%; }
+        .gallery .grid-container .item-wrap .item-3::after {
+          font-size: 10px;
+          content: 'TRADITIONAL \A ART'; }

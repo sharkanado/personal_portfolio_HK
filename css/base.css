@@ -1,0 +1,26 @@
+html {
+  background-image: url("../images/krajobraz.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  scroll-behavior: smooth;
+  background-position: 0% 90%; }
+
+* {
+  box-sizing: border-box;
+  color: white; }
+
+.container {
+  margin: 0 70px; }
+  @media (max-width: 400px) {
+    .container {
+      margin: 0 20px; } }
+
+.inner-header p {
+  font-size: 22px;
+  margin: 50px; }
+
+.inner-header h2 {
+  font-size: 50px; }
+
+img {
+  max-width: 100%; }
