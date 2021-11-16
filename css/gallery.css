@@ -138,7 +138,7 @@
 
 .gallery .grid-container .item-wrap .item-2::after {
   font-size: 10px;
-  content: 'VISUAL \A IDENTIFICATION';
+  content: 'VISUAL \A IDENTITY';
 }
 
 @media (max-width: 1245px) {
@@ -151,7 +151,7 @@
 
 @media (max-width: 880px) {
   .gallery .grid-container .item-wrap .item-2::after {
-    font-size: 0.5vw;
+    font-size: 6px;
     margin-top: 30px;
     padding-top: 100px;
   }
