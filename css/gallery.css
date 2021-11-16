@@ -151,7 +151,7 @@
 
 @media (max-width: 880px) {
   .gallery .grid-container .item-wrap .item-2::after {
-    font-size: 2vw;
+    font-size: 0.5vw;
     margin-top: 30px;
     padding-top: 100px;
   }
