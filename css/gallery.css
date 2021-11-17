@@ -85,6 +85,7 @@
   font-size: 16px;
   margin-top: 300px;
   padding-top: 100px;
+  -webkit-text-size-adjust: none;
   opacity: 80%;
   text-align: center;
   color: white;
