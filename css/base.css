@@ -5,8 +5,9 @@ html {
   scroll-behavior: smooth;
   background-position: 0% 90%; }
 
-* {
+body * {
   box-sizing: border-box;
+  -webkit-text-size-adjust: none;
   color: white; }
 
 .container {
